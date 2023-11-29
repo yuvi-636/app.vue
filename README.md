@@ -8,7 +8,7 @@ To start:
 ```sh
 npm install
 npm run dev
-
+//without yarn:
 # if using yarn:
 yarn
 yarn dev
