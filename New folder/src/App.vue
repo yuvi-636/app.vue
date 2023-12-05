@@ -19,5 +19,6 @@ const compute = () => {
 
   <p>The first number is {{ firstNumber }}</p>
   <p>The second number is {{ secondNumber }}</p>
-  <button @click="compute">Compute</button>
+<button @click="compute" v-html="`The product is ${firstNumber.value * secondNumber.value}`" :disabled="true">Compute</button>
+
 </template>
