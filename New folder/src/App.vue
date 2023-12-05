@@ -8,8 +8,8 @@ const button = ref(null);
 
 const compute = () => {
   const product = firstNumber.value * secondNumber.value;
-  button.innerHTML = `The product is ${product}`;
-  button.disabled = true;
+this.$refs.button.innerHTML = `The product is ${product}`;
+  this.$refs.button.disabled = true;
 };
 </script>
 
