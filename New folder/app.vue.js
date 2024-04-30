@@ -15,7 +15,6 @@ const _hoisted_2 = /*#__PURE__*/_createElementVNode("img", {
 
 import { ref } from 'vue'
 
-
 const __sfc__ = {
   __name: 'App',
   setup(__props) {
